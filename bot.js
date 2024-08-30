@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
 // Replace 'YOUR_TELEGRAM_BOT_API_TOKEN' with your bot's API token
-const bot = new TelegramBot('YOUR_TELEGRAM_BOT_API_TOKEN', { polling: true });
+const bot = new TelegramBot('6007359822:AAFEeYiYy5l1S5mtU2jvnmfQ-RMOjmdBEIA', { polling: true });
 
 // API endpoint and key
 const AI_API_URL = 'https://prabath-md-api.up.railway.app/api/gptv4';
